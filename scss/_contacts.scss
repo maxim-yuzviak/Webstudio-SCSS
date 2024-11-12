@@ -1,0 +1,36 @@
+.mailto-2 {
+    text-decoration: none;
+    color: var(--grey-text-color);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    font-weight: 500;
+    letter-spacing: 2%;
+  }
+
+  .header-mail{
+    margin-right: 10px;
+    /* position: relative;
+    right: 30px;
+    align-items: center; */
+    /* justify-content: end; */
+    fill: currentColor;
+  }
+
+  .header-tell {
+    color: var(--footer-efectivity-substrate-color);
+    text-decoration: none;
+    font-size: 14px;
+    color: #757575;
+  font-weight: 500;
+  }
+
+  .header-phone{
+    margin-right: 10px;
+    fill: #212121;
+  }
+
+  .header-phone:hover{
+    fill:#188CE8;
+  }

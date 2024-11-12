@@ -1,0 +1,56 @@
+.efectivity {
+    width: 1600;
+    height: 600px;
+    color: rgb(255, 255, 255);
+    /* padding-top: 200px;
+    padding-bottom: 280px; */
+    background-image: linear-gradient(to right,
+        rgba(46, 47, 59, 0.247),
+        rgba(46, 47, 59, 0.247)),
+      url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: var(--footer-efectivity-substrate-color); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-title {
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 6%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .button-order {
+    font-family: "Roboto";
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    width: 216px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition-property: background-color, transform;
+    transition-duration: 250ms;
+    /* line-height: 30px; */
+    /* margin-bottom: 30px; */
+    /* letter-spacing: 6%; */
+    border-radius: 4px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  

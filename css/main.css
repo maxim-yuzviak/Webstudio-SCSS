@@ -1,0 +1,270 @@
+.header-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 50px;
+  margin-right: auto;
+  width: 500px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.active-now {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 2%;
+  text-decoration: none;
+  color: var(--accent-color);
+  text-decoration: none;
+  -webkit-animation: jello-horizontal 0.9s both;
+          animation: jello-horizontal 0.9s both;
+}
+
+.active-now:hover {
+  background-color: white;
+}
+
+.active {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 2%;
+  text-decoration: none;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.active:hover {
+  color: var(--accent-color);
+}
+
+.decor {
+  position: relative;
+  top: 30px;
+  right: 2px;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background: rgb(33, 150, 243);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.active:hover .decor {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+.header-list-contacts {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mailto-2 {
+  text-decoration: none;
+  color: var(--grey-text-color);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 2%;
+}
+
+.header-mail {
+  margin-right: 10px;
+  /* position: relative;
+  right: 30px;
+  align-items: center; */
+  /* justify-content: end; */
+  fill: currentColor;
+}
+
+.header-tell {
+  color: var(--footer-efectivity-substrate-color);
+  text-decoration: none;
+  font-size: 14px;
+  color: #757575;
+  font-weight: 500;
+}
+
+.header-phone {
+  margin-right: 10px;
+  fill: #212121;
+}
+
+.header-phone:hover {
+  fill: #188CE8;
+}
+
+.web {
+  color: var(--accent-color);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 3%;
+  text-decoration: none;
+  width: 145px;
+  font-weight: 31px;
+  margin-top: 7px;
+  padding-left: 35px;
+  margin-top: 22px;
+  margin-right: 93px;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.studio {
+  color: black;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 3%;
+  width: 145px;
+  height: 31px;
+}
+
+.efectivity {
+  width: 1600;
+  height: 600px;
+  color: rgb(255, 255, 255);
+  /* padding-top: 200px;
+  padding-bottom: 280px; */
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(46, 47, 59, 0.247)), to(rgba(46, 47, 59, 0.247))), url("img/header.jpg");
+  background-image: linear-gradient(to right, rgba(46, 47, 59, 0.247), rgba(46, 47, 59, 0.247)), url("img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: var(--footer-efectivity-substrate-color); */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.main-title {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 6%;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.button-order {
+  font-family: "Roboto";
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  width: 216px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  -webkit-transition-property: background-color, -webkit-transform;
+  transition-property: background-color, -webkit-transform;
+  transition-property: background-color, transform;
+  transition-property: background-color, transform, -webkit-transform;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  /* line-height: 30px; */
+  /* margin-bottom: 30px; */
+  /* letter-spacing: 6%; */
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mailto-2 {
+  text-decoration: none;
+  color: var(--grey-text-color);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 2%;
+}
+
+.header-mail {
+  margin-right: 10px;
+  /* position: relative;
+  right: 30px;
+  align-items: center; */
+  /* justify-content: end; */
+  fill: currentColor;
+}
+
+.header-tell {
+  color: var(--footer-efectivity-substrate-color);
+  text-decoration: none;
+  font-size: 14px;
+  color: #757575;
+  font-weight: 500;
+}
+
+.header-phone {
+  margin-right: 10px;
+  fill: #212121;
+}
+
+.header-phone:hover {
+  fill: #188CE8;
+}/*# sourceMappingURL=main.css.map */
