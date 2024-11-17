@@ -66,8 +66,13 @@
     display: flex;
     gap: 50px;
     margin-left: auto;
-    justify-content: space-between;
+    // justify-content: space-between;
     align-items: center;
+  }
+
+  header>ul {
+    color: rgb(20, 255, 235);
+    font-family: 'Courier New', Courier, monospace;
   }
 
  

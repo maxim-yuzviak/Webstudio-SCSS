@@ -1,0 +1,71 @@
+.what-we-do {
+    color: var(--footer-efectivity-substrate-color);
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 3%;
+    display: flex;
+    justify-content: center;
+      animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    
+  
+  }
+
+  .what-w-d {
+    margin-top: 94px;
+    margin-bottom: 50px;
+  }
+
+  .what-we-do-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 0px;
+  }
+
+  .thumb{
+    position: relative;
+    background-color: rgba(47, 48, 58, 0.8);
+    
+  }
+
+  .thumb > .label{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 370px;
+  height: 70px;
+    color: var(--our-command-substrate);
+    font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .what-we-do-item {
+    /* height: 100px; */
+    margin: 0px 0px 0px 0px;
+    padding: -2px -2px -2px -2px;
+    /* outline: 2px solid blue; */
+  }
+
+  .what-we-do-img {
+    display: block;
+    height: 100%;
+  }
+
+  .p-description {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: var(--grey-text-color);
+  }

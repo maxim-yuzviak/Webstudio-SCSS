@@ -1,5 +1,12 @@
-@import "./header";
-@import "./contacts";
-@import "./logo";
-@import "./effectivity";
-@import "./contacts";
+@import "/scss/components/header";
+@import "./components/clients";
+@import "/scss/components/logo";
+@import "./components/effectivity";
+@import "./components/contacts";
+@import "./base/components";
+@import "./components/features";
+@import "./components/what-we-do";
+@import "./components/team";
+@import "./components/footer";
+@import "./utils/variables";
+@import "./components/modal";

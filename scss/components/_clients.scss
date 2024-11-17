@@ -1,0 +1,44 @@
+.client-title{
+    color: rgb(33, 33, 33);
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 3%;
+  text-align: center;
+  }
+  
+  .client-list{
+  list-style: none;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  }
+  
+  .client-ico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F5F4FA;
+  }
+  
+  .client-ico:hover{
+   color: #188CE8;
+  }
+  
+  .client-item{
+  border: 1px solid rgb(175, 177, 184);
+  border-radius: 4px;
+  display: flex;
+  width: 170px;
+  justify-content: center;
+    align-items: center;
+  height: 92px;
+  fill:  rgb(175, 177, 184);
+  }
+  
+  .client-item:hover{
+  fill: var(--accent-color);
+  }
+
+  
