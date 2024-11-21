@@ -320,6 +320,10 @@ header {
   /* outline: rgb(110, 173, 209) 1px solid; */
 }
 
+body {
+  font-family: "Roboto";
+}
+
 .main-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1051,7 +1055,6 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   gap: 8px;
-  margin-top: 94px;
 }
 
 .buttons {
@@ -1130,11 +1133,6 @@ footer {
   transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0.03em;
 }
 
 .card-title {
