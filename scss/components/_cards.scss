@@ -1,0 +1,126 @@
+.section-buttons {
+    list-style: none;
+    display: flex;
+    margin-top: 94px;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+  }
+
+.button-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 94px;
+}
+
+.buttons {
+  list-style: none;
+}
+
+.portfolio-button {
+  color: #212121;
+  background-color: #F5F4FA;
+  border: 0px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 38px;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.03em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #212121;
+background-color: #F5F4FA;
+border: 0px;
+}
+
+.portfolio-button:hover {
+  background-color: #2196F3;
+  border-color: #2196F3;
+  color: #ffffff;
+}
+
+.spysok-products {
+  list-style: none;
+margin-top: 34px;
+margin-bottom: 50px;
+display: flex;
+flex-wrap: wrap;
+padding-left: 0px;
+gap: 27px;
+}
+
+.products-punkty {
+  flex-basis: calc((100% - 20px*370) / 9);
+border: 1px solid rgb(238, 238, 238);
+width: 307;
+height: 404px;
+}
+
+.box:hover .hover-text {
+  transform: translatey(-100%);
+}
+
+.hover-text {
+  position: absolute;
+margin-top: 0;
+margin-bottom: 0;
+padding: 63px 24px;
+font-size: 18px;
+line-height: 1.56;
+letter-spacing: 0.03em;
+color: #ffffff;
+background-color: rgba(33, 150, 243, 0.9);
+transform: translatey(100%);
+transition: transform 250ms ease-in-out;
+}
+
+.card-title {
+  font-family: "Roboto", bold;
+    font-style: normal;
+    color: rgb(33, 33, 33);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 6%;
+    padding-left: 24px;
+}
+
+.card-description {
+  color: rgb(117, 117, 117);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 3%;
+    text-align: left;
+    color: #757575;
+    padding-left: 24px;
+}
+
+.box{
+  position: relative;
+  overflow: hidden;
+}
+
+.hidden-text{
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 63px 24px;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translatey(100%);
+  transition: transform 250ms ease-in-out;
+}

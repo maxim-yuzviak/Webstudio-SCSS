@@ -82,6 +82,9 @@
   display: flex;
   gap: 50px;
   margin-left: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -92,41 +95,70 @@ header > ul {
   font-family: "Courier New", Courier, monospace;
 }
 
-.mailto-2 {
-  text-decoration: none;
-  color: var(--grey-text-color);
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+}
+
+.client-title {
+  color: rgb(33, 33, 33);
   font-family: "Roboto";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
-  font-weight: 500;
-  letter-spacing: 2%;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 3%;
+  text-align: center;
 }
 
-.header-mail {
-  margin-right: 10px;
-  /* position: relative;
-  right: 30px;
-  align-items: center; */
-  /* justify-content: end; */
-  fill: currentColor;
+.client-list {
+  list-style: none;
+  gap: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.header-tell {
-  color: var(--footer-efectivity-substrate-color);
-  text-decoration: none;
-  font-size: 14px;
-  color: #757575;
-  font-weight: 500;
+.client-ico {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #F5F4FA;
 }
 
-.header-phone {
-  margin-right: 10px;
-  fill: #212121;
+.client-ico:hover {
+  color: #188CE8;
 }
 
-.header-phone:hover {
-  fill: #188CE8;
+.client-item {
+  border: 1px solid rgb(175, 177, 184);
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 170px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 92px;
+  fill: rgb(175, 177, 184);
+}
+
+.client-item:hover {
+  fill: var(--accent-color);
 }
 
 .web {
@@ -149,6 +181,17 @@ header > ul {
 
 .studio {
   color: black;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 3%;
+  width: 145px;
+  height: 31px;
+}
+
+.studio2 {
+  color: rgb(255, 255, 255);
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -617,98 +660,10 @@ header > ul {
   border-radius: 50%;
 }
 
-.client-title {
-  color: rgb(33, 33, 33);
-  font-family: "Roboto";
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 42px;
-  letter-spacing: 3%;
-  text-align: center;
-}
-
-.client-list {
-  list-style: none;
-  gap: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.client-ico {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #F5F4FA;
-}
-
-.client-ico:hover {
-  color: #188CE8;
-}
-
-.client-item {
-  border: 1px solid rgb(175, 177, 184);
-  border-radius: 4px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 170px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 92px;
-  fill: rgb(175, 177, 184);
-}
-
-.client-item:hover {
-  fill: var(--accent-color);
-}
-
 .footer-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.web {
-  color: var(--accent-color);
-  font-family: "Raleway";
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 31px;
-  letter-spacing: 3%;
-  text-decoration: none;
-  width: 145px;
-  font-weight: 31px;
-  margin-top: 7px;
-  padding-left: 35px;
-  margin-top: 22px;
-  margin-right: 93px;
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-
-.studio2 {
-  color: rgb(255, 255, 255);
-  font-family: "Raleway";
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 31px;
-  letter-spacing: 3%;
-  width: 145px;
-  height: 31px;
 }
 
 .fo-font {
@@ -1067,4 +1022,159 @@ footer {
 .terms {
   color: var(--grey-text-color);
   text-decoration: none;
+}
+
+.section-buttons {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 94px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 8px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  margin-top: 94px;
+}
+
+.buttons {
+  list-style: none;
+}
+
+.portfolio-button {
+  color: #212121;
+  background-color: #F5F4FA;
+  border: 0px;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 38px;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #212121;
+  background-color: #F5F4FA;
+  border: 0px;
+}
+
+.portfolio-button:hover {
+  background-color: #2196F3;
+  border-color: #2196F3;
+  color: #ffffff;
+}
+
+.spysok-products {
+  list-style: none;
+  margin-top: 34px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 0px;
+  gap: 27px;
+}
+
+.products-punkty {
+  -ms-flex-preferred-size: calc((100% - 7400px) / 9);
+      flex-basis: calc((100% - 7400px) / 9);
+  border: 1px solid rgb(238, 238, 238);
+  width: 307;
+  height: 404px;
+}
+
+.box:hover .hover-text {
+  -webkit-transform: translatey(-100%);
+          transform: translatey(-100%);
+}
+
+.hover-text {
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 63px 24px;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: rgba(33, 150, 243, 0.9);
+  -webkit-transform: translatey(100%);
+          transform: translatey(100%);
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+.card-title {
+  font-family: "Roboto", bold;
+  font-style: normal;
+  color: rgb(33, 33, 33);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 6%;
+  padding-left: 24px;
+}
+
+.card-description {
+  color: rgb(117, 117, 117);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 3%;
+  text-align: left;
+  color: #757575;
+  padding-left: 24px;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+}
+
+.hidden-text {
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 63px 24px;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: rgba(33, 150, 243, 0.9);
+  -webkit-transform: translatey(100%);
+          transform: translatey(100%);
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }/*# sourceMappingURL=main.css.map */

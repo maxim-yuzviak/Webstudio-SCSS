@@ -1,13 +1,13 @@
 
-  .header-list {
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    gap: 50px;
-    margin-right: auto;
-    width: 500px;
-    align-items: center;
-  }
+.header-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-right: auto;
+  width: 500px;
+  align-items: center;
+}
 
   .active-now{
     color: rgb(33, 33, 33);
@@ -66,13 +66,18 @@
     display: flex;
     gap: 50px;
     margin-left: auto;
-    // justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
   }
 
   header>ul {
     color: rgb(20, 255, 235);
     font-family: 'Courier New', Courier, monospace;
+  }
+
+  header {
+    display: flex;
+    height: 80px;
   }
 
  

@@ -1,6 +1,6 @@
-@import "/scss/components/header";
+@import "./components/header";
 @import "./components/clients";
-@import "/scss/components/logo";
+@import "./components/logo";
 @import "./components/effectivity";
 @import "./components/contacts";
 @import "./base/components";
@@ -10,3 +10,4 @@
 @import "./components/footer";
 @import "./utils/variables";
 @import "./components/modal";
+@import "./components/cards"
