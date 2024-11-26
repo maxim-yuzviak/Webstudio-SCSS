@@ -161,7 +161,7 @@ header {
   fill: var(--accent-color);
 }
 
-.header-logo {
+.web {
   color: var(--accent-color);
   font-family: "Raleway";
   font-size: 26px;
@@ -324,7 +324,7 @@ body {
   font-family: "Roboto";
 }
 
-.features-list {
+.main-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -359,7 +359,7 @@ body {
   background-size: 70px;
 }
 
-.list-title {
+.features-subtitle {
   color: rgb(33, 33, 33);
   font-family: "Roboto";
   font-size: 14px;
@@ -370,7 +370,7 @@ body {
   text-transform: uppercase;
 }
 
-.features-description {
+.p-description {
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 400;
@@ -468,12 +468,12 @@ body {
           animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
 
-.work-title {
+.what-w-d {
   margin-top: 94px;
   margin-bottom: 50px;
 }
 
-.work-list {
+.what-we-do-list {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -517,14 +517,14 @@ body {
           align-items: center;
 }
 
-.work-item {
+.what-we-do-item {
   /* height: 100px; */
   margin: 0px 0px 0px 0px;
   padding: -2px -2px -2px -2px;
   /* outline: 2px solid blue; */
 }
 
-.work-img {
+.what-we-do-img {
   display: block;
   height: 100%;
 }
@@ -538,13 +538,13 @@ body {
   color: var(--grey-text-color);
 }
 
-.team {
+.section-our-team {
   background-color: var(--our-command-substrate);
   margin-top: 188px;
   margin-bottom: 50px;
 }
 
-.team-title {
+.our-team {
   color: var(--footer-efectivity-substrate-color);
   font-family: "Roboto";
   font-size: 36px;
@@ -560,7 +560,7 @@ body {
           justify-content: center;
 }
 
-.team-list {
+.our-team-lisst {
   list-style: none;
   margin-bottom: 94px;
   display: -webkit-box;
@@ -576,18 +576,18 @@ body {
   gap: 30px;
 }
 
-.team-item {
+.our-team-item {
   border-radius: 0px 0px 4px 4px;
   -webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.team-img {
+.our-team-picture-list {
   list-style: none;
   display: block;
 }
 
-.team-name {
+.name {
   color: rgb(33, 33, 33);
   font-family: "Roboto";
   font-size: 16px;
@@ -608,7 +608,7 @@ body {
   border-radius: 50%;
 }
 
-.team-social {
+.svg-ico-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -624,14 +624,14 @@ body {
           align-items: center;
 }
 
-.team-socials {
+.so-net-ico {
   width: 20px;
   height: 20px;
   display: block;
   fill: #AFB1B8;
 }
 
-.team-link {
+.so-net-link {
   color: white;
   fill: currentColor;
   display: block;
@@ -644,7 +644,7 @@ body {
           transition-duration: 250ms;
 }
 
-.team-decrip {
+.decrip {
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
