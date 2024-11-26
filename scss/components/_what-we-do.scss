@@ -12,12 +12,12 @@
   
   }
 
-  .what-w-d {
+  .work-title {
     margin-top: 94px;
     margin-bottom: 50px;
   }
 
-  .what-we-do-list {
+  .work-list {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -49,14 +49,14 @@
   align-items: center;
   }
 
-  .what-we-do-item {
+  .work-item {
     /* height: 100px; */
     margin: 0px 0px 0px 0px;
     padding: -2px -2px -2px -2px;
     /* outline: 2px solid blue; */
   }
 
-  .what-we-do-img {
+  .work-img {
     display: block;
     height: 100%;
   }

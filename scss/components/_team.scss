@@ -1,4 +1,4 @@
-.section-our-team {
+.team {
   
     background-color: var(--our-command-substrate);
     margin-top: 188px;
@@ -6,7 +6,7 @@
   
   }
 
-  .our-team {
+  .team-title {
     color: var(--footer-efectivity-substrate-color);
     font-family: "Roboto";
     font-size: 36px;
@@ -19,7 +19,7 @@
   
   }
 
-  .our-team-lisst {
+  .team-list {
     list-style: none;
     margin-bottom: 94px;
     display: flex;
@@ -28,17 +28,17 @@
     gap: 30px;
   }
 
-  .our-team-item {
+  .team-item {
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   }
 
-  .our-team-picture-list {
+  .team-img {
     list-style: none;
     display: block;
   }
 
-  .name {
+  .team-name {
     color: rgb(33, 33, 33);
     font-family: "Roboto";
     font-size: 16px;
@@ -49,13 +49,13 @@
     justify-content: center;
   }
 
-  .svg-ico-item{
+  .team-social{
     background-color: rgba(255, 255, 255, 0.1);
     background-position: center;
     border-radius: 50%;
   } 
   
-  .svg-ico-list{
+  .team-social{
     display: flex;
     list-style: none;
     gap: 20px;
@@ -65,7 +65,7 @@
     align-items: center;
   }
 
-  .so-net-ico{
+  .team-socials{
    
     width: 20px;
   height: 20px;
@@ -74,7 +74,7 @@
   ;
   }
 
-  .so-net-link{
+  .team-link{
     color: white;
   fill: currentColor;
     display: block;
@@ -83,7 +83,7 @@
     transition-duration: 250ms;
   }
 
-  .decrip {
+  .team-decrip {
     font-family: "Roboto";
     font-size: 16px;
     font-weight: 400;
@@ -94,7 +94,7 @@
     justify-content: center;
 }
 
-.svg-ico-item:hover{
+.team-social:hover{
     background-color: var(--accent-color);
     border-radius: 50%;
     
