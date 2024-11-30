@@ -1,12 +1,53 @@
 
-.header-list {
-  list-style: none;
+.header-mob-position {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+.header-list {
+  display: flex;
   gap: 50px;
   margin-right: auto;
-  width: 500px;
   align-items: center;
+  @media screen and (max-width: 767px) {
+    display: none;
+
+  }
+}
+
+.header-list-contacts {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+  align-items: center;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(100%);
+  background-color: chocolate;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  height: 40px;
+  width: 40px;
 }
 
   .header-item-now{
@@ -60,15 +101,6 @@
   .header-item:hover .decor{
     transform:translateY(-20px) ; 
    }
-
-   .header-list-contacts {
-    list-style: none;
-    display: flex;
-    gap: 50px;
-    margin-left: auto;
-    justify-content: space-between;
-    align-items: center;
-  }
 
   header>ul {
     color: rgb(20, 255, 235);
