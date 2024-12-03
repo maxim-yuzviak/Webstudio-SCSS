@@ -1,6 +1,19 @@
+.header {
+  padding: 16px 0;
+
+  @media screen and (min-width: $tablet) {
+    padding: 26px 0;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding: 24px 0;
+  }
+}
+
 .header-mob-position {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-list {
@@ -8,18 +21,26 @@
   gap: 50px;
   margin-right: auto;
   align-items: center;
-  @media screen and (max-width: 481px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
 }
 
 .header-list-contacts {
-  display: flex;
-  gap: 50px;
-  margin-left: auto;
-  align-items: center;
-  @media screen and (max-width: 481px) {
+  @media screen and (max-width: 767px) {
     display: none;
+  }
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    gap: 50px;
+    margin-left: auto;
+    flex-direction: row;
   }
 }
 
@@ -139,7 +160,7 @@
   border-right: 1px solid #21212133;
   padding-right: 10px;
   padding-left: 10px;
-  color: #2196F3;
+  color: #2196f3;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 500;
@@ -153,7 +174,6 @@
 .mob-header-links li:last-child .mob-header-link {
   border-right: none;
 }
-
 
 .mob-contact-tel {
   color: #757575;
@@ -173,9 +193,4 @@
 header > ul {
   color: rgb(20, 255, 235);
   font-family: "Courier New", Courier, monospace;
-}
-
-header {
-  display: flex;
-  height: 80px;
 }

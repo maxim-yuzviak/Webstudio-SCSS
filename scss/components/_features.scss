@@ -6,7 +6,8 @@
     padding: 0px;
     gap: 30px;
     @media screen and (max-width: 481px) {
-      
+      display: flex;
+      flex-wrap: wrap;
     }
   }
 
