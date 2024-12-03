@@ -5,6 +5,9 @@
     margin-bottom: 50px;
     padding: 0px;
     gap: 30px;
+    @media screen and (max-width: 481px) {
+      
+    }
   }
 
   .card-img::before,

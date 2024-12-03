@@ -1,4 +1,3 @@
-
 .header-mob-position {
   display: flex;
   justify-content: space-between;
@@ -9,9 +8,8 @@
   gap: 50px;
   margin-right: auto;
   align-items: center;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 481px) {
     display: none;
-
   }
 }
 
@@ -20,7 +18,7 @@
   gap: 50px;
   margin-left: auto;
   align-items: center;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 481px) {
     display: none;
   }
 }
@@ -32,7 +30,7 @@
   width: 100%;
   height: 100%;
   transform: translateX(100%);
-  background-color: chocolate;
+  background-color: white;
 }
 
 .menu-container.is-open {
@@ -46,71 +44,138 @@
   background-color: transparent;
   cursor: pointer;
   border: none;
+  position: fixed;
+  top: 10px;
+  right: 15px;
   height: 40px;
   width: 40px;
+  @media screen and (min-width: 481px) {
+    display: none;
+  }
 }
 
-  .header-item-now{
-    color: rgb(33, 33, 33);
-    font-family: "Roboto";
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 2%;
-    text-decoration: none;
-    color: var(--accent-color);
-    text-decoration: none;
-    animation: jello-horizontal 0.9s both;
-  }
+.header-item-now {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 2%;
+  text-decoration: none;
+  color: var(--accent-color);
+  text-decoration: none;
+  animation: jello-horizontal 0.9s both;
+}
 
-  .header-item-now:hover {
-    background-color: white;
-  }
+.header-item-now:hover {
+  background-color: white;
+}
 
-  .header-item {
-    color: rgb(33, 33, 33);
-    font-family: "Roboto";
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 2%;
-    text-decoration: none;
-    transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
-  }
+.mob-nav-link {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 46.88px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
 
-  .header-item:hover {
-    color: var(--accent-color);
-  }
+.mob-nav-item {
+  padding-bottom: 32px;
+}
 
-  .decor{
-    position: relative;
-    top: 30px;
-    right: 2px;
-    width: 48px;
+.mob-nav-list {
+  margin-top: 48px;
+  margin-left: 40px;
+}
+
+.mob-nav-item:hover {
+  color: var(--accent-color);
+}
+
+.decor {
+  position: relative;
+  top: 30px;
+  right: 2px;
+  width: 48px;
   height: 4px;
-    border-radius: 2px;
+  border-radius: 2px;
   background: rgb(33, 150, 243);
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+}
 
-  .header-item:hover .decor{
-    transform:translateY(-20px) ; 
-   }
+.header-item:hover .decor {
+  transform: translateY(-20px);
+}
 
-  header>ul {
-    color: rgb(20, 255, 235);
-    font-family: 'Courier New', Courier, monospace;
-  }
+.mob-contact-link {
+  color: var(--accent-color);
+  font-family: Roboto;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 39.84px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: fixed;
+  bottom: 194px;
+  padding-left: 15px;
+}
 
-  header {
-    display: flex;
-    height: 80px;
-  }
+.mob-header-links {
+  display: flex;
+  padding-left: 30px;
+  position: fixed;
+  bottom: 48px;
+}
 
- 
+.mob-header-link {
+  border-right: 1px solid #21212133;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #2196F3;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
 
+.mob-header-links li:last-child .mob-header-link {
+  border-right: none;
+}
+
+
+.mob-contact-tel {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.13px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: fixed;
+  bottom: 134px;
+  padding-left: 17px;
+}
+
+header > ul {
+  color: rgb(20, 255, 235);
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  display: flex;
+  height: 80px;
+}
