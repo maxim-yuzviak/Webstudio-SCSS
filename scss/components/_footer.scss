@@ -21,7 +21,7 @@
 
   .mailto {
     text-decoration: none;
-    color: var(--grey-text-color);
+    color: var($grey-text-color);
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 400;
@@ -29,8 +29,8 @@
   }
 
   .tel {
-    text-decoration: var(--grey-text-color);
-    color: var(--grey-text-color);
+    text-decoration: var($grey-text-color);
+    color: var($grey-text-color);
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 400;
@@ -80,7 +80,7 @@
   }
 
   .fo-so-net-item:hover{
-    background-color: var(--accent-color);
+    background-color: var($accent-color);
   }
 
   .fo-so-net-ico{
@@ -111,7 +111,7 @@
 .footer-button{
     margin-left: 12px;
     font-family: "Roboto";
-    background-color: var(--accent-color);
+    background-color: var($accent-color);
     color: white;
     border: none;
     width: 216px;
@@ -128,7 +128,7 @@
   }
   
   .footer-button:hover{
-    background-color: var(--accent-color-hover);
+    background-color: var($accent-color-hover);
     transform: cubic-bezier(0.4, 0, 0.2, 1); 
     
   }
@@ -138,7 +138,7 @@
   }
 
   footer {
-    background-color: var(--footer-efectivity-substrate-color);
+    background-color: var($footer-efectivity-substrate-color);
     /* height: 252px; */
     padding-top: 60px;
   }

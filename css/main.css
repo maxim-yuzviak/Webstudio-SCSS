@@ -1,15 +1,3 @@
-:root {
-  --accent-color-hover: #188CE8;
-  --accent-color: #2196F3;
-  --grey-text-color: #757575;
-  --footer-efectivity-substrate-color: #2F303A;
-  --footer-so-net-color: rgba(255, 255, 255, 0.1);
-  --our-command-substrate: #F5F4FA;
-  --white: #ffff;
-  --our-command-substrate-hover: #e9e6e6;
-  --efectivity-trans-color: #2e2f3b3f;
-}
-
 h1, h2, h3, h4, h5, h6,
 p {
   margin: 0;
@@ -176,7 +164,7 @@ body {
   line-height: 16px;
   letter-spacing: 2%;
   text-decoration: none;
-  color: var(--accent-color);
+  color: var(#2196f3);
   text-decoration: none;
   -webkit-animation: jello-horizontal 0.9s both;
           animation: jello-horizontal 0.9s both;
@@ -209,7 +197,7 @@ body {
 }
 
 .mob-nav-item:hover {
-  color: var(--accent-color);
+  color: var(#2196f3);
 }
 
 .decor {
@@ -236,7 +224,7 @@ body {
 }
 
 .mob-contact-link {
-  color: var(--accent-color);
+  color: #2196f3;
   font-family: Roboto;
   font-size: 34px;
   font-weight: 500;
@@ -357,11 +345,11 @@ header > ul {
 }
 
 .client-item:hover {
-  fill: var(--accent-color);
+  fill: var(#2196f3);
 }
 
 .header-logo {
-  color: var(--accent-color);
+  color: var(#2196f3);
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -370,7 +358,6 @@ header > ul {
   text-decoration: none;
   width: 145px;
   font-weight: 31px;
-  margin-top: 7px;
   padding-left: 35px;
   margin-top: 22px;
   margin-right: 93px;
@@ -414,7 +401,7 @@ header > ul {
   background-image: linear-gradient(to right, rgba(46, 47, 59, 0.247), rgba(46, 47, 59, 0.247)), url(/img/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: var(--footer-efectivity-substrate-color); */
+  /* background-color: var($footer-efectivity-substrate-color); */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -449,7 +436,7 @@ header > ul {
 
 .button-order {
   font-family: "Roboto";
-  background-color: var(--accent-color);
+  background-color: var(#2196f3);
   color: white;
   border: none;
   width: 216px;
@@ -482,7 +469,7 @@ header > ul {
 
 .mailto-2 {
   text-decoration: none;
-  color: var(--grey-text-color);
+  color: var(#757575);
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 400;
@@ -501,7 +488,7 @@ header > ul {
 }
 
 .header-tell {
-  color: var(--footer-efectivity-substrate-color);
+  color: var(#2f303a);
   text-decoration: none;
   font-size: 14px;
   color: #757575;
@@ -557,7 +544,7 @@ header > ul {
   display: -ms-flexbox;
   display: flex;
   background-position: center;
-  background-color: var(--our-command-substrate);
+  background-color: var(#f5f4fa);
   background-size: 70px;
 }
 
@@ -578,7 +565,7 @@ header > ul {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 3%;
-  color: var(--grey-text-color);
+  color: var(#757575);
 }
 
 .card-img-clock::before,
@@ -601,7 +588,7 @@ header > ul {
   display: -ms-flexbox;
   display: flex;
   background-position: center;
-  background-color: var(--our-command-substrate);
+  background-color: var(#f5f4fa);
   background-size: 70px;
 }
 
@@ -625,7 +612,7 @@ header > ul {
   display: -ms-flexbox;
   display: flex;
   background-position: center;
-  background-color: var(--our-command-substrate);
+  background-color: var(#f5f4fa);
   background-size: 70px;
 }
 
@@ -649,12 +636,12 @@ header > ul {
   display: -ms-flexbox;
   display: flex;
   background-position: center;
-  background-color: var(--our-command-substrate);
+  background-color: var(#f5f4fa);
   background-size: 70px;
 }
 
 .what-we-do {
-  color: var(--footer-efectivity-substrate-color);
+  color: var(#2f303a);
   font-family: "Roboto";
   font-size: 36px;
   font-weight: 700;
@@ -702,7 +689,7 @@ header > ul {
   background-color: rgba(47, 48, 58, 0.8);
   width: 370px;
   height: 70px;
-  color: var(--our-command-substrate);
+  color: var(#f5f4fa);
   font-size: 14px;
   font-weight: 700;
   text-align: center;
@@ -737,17 +724,17 @@ header > ul {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 3%;
-  color: var(--grey-text-color);
+  color: var(#757575);
 }
 
 .team {
-  background-color: var(--our-command-substrate);
+  background-color: var(#f5f4fa);
   margin-top: 188px;
   margin-bottom: 50px;
 }
 
 .team-title {
-  color: var(--footer-efectivity-substrate-color);
+  color: var(#2f303a);
   font-family: "Roboto";
   font-size: 36px;
   font-weight: 700;
@@ -852,7 +839,7 @@ header > ul {
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 3%;
-  color: var(--grey-text-color);
+  color: var(#757575);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -862,7 +849,7 @@ header > ul {
 }
 
 .team-social:hover {
-  background-color: var(--accent-color);
+  background-color: var(#2196f3);
   border-radius: 50%;
 }
 
@@ -891,16 +878,16 @@ header > ul {
 
 .mailto {
   text-decoration: none;
-  color: var(--grey-text-color);
+  color: var(#757575);
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 400;
 }
 
 .tel {
-  -webkit-text-decoration: var(--grey-text-color);
-          text-decoration: var(--grey-text-color);
-  color: var(--grey-text-color);
+  -webkit-text-decoration: var(#757575);
+          text-decoration: var(#757575);
+  color: var(#757575);
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 400;
@@ -965,7 +952,7 @@ header > ul {
 }
 
 .fo-so-net-item:hover {
-  background-color: var(--accent-color);
+  background-color: var(#2196f3);
 }
 
 .fo-so-net-ico {
@@ -998,7 +985,7 @@ header > ul {
 .footer-button {
   margin-left: 12px;
   font-family: "Roboto";
-  background-color: var(--accent-color);
+  background-color: var(#2196f3);
   color: white;
   border: none;
   width: 216px;
@@ -1026,7 +1013,7 @@ header > ul {
 }
 
 .footer-button:hover {
-  background-color: var(--accent-color-hover);
+  background-color: var(#188ce8);
   -webkit-transform: cubic-bezier(0.4, 0, 0.2, 1);
           transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1036,7 +1023,7 @@ header > ul {
 }
 
 footer {
-  background-color: var(--footer-efectivity-substrate-color);
+  background-color: var(#2f303a);
   /* height: 252px; */
   padding-top: 60px;
 }
@@ -1113,7 +1100,7 @@ footer {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 100%;
-  background-color: var(--white);
+  background-color: var(white);
   /* display: flex;
   justify-content: space-between */
 }
@@ -1176,7 +1163,7 @@ footer {
 }
 
 .modal-link {
-  color: var(--accent-color);
+  color: var(#2196f3);
 }
 
 .btn-modal {
@@ -1214,7 +1201,7 @@ footer {
 }
 
 .terms {
-  color: var(--grey-text-color);
+  color: var(#757575);
   text-decoration: none;
 }
 

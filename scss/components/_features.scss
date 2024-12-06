@@ -29,7 +29,7 @@
   .card-img::after {
     display: flex;
     background-position: center;
-    background-color: var(--our-command-substrate);
+    background-color: var($our-command-substrate);
     background-size: 70px;
   }
 
@@ -51,7 +51,7 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 3%;
-    color: var(--grey-text-color);
+    color: var($grey-text-color);
   }
 
   .card-img-clock::before,
@@ -72,7 +72,7 @@
   .card-img-clock::after {
     display: flex;
     background-position: center;
-    background-color: var(--our-command-substrate);
+    background-color: var($our-command-substrate);
     background-size: 70px;
   }
   
@@ -94,7 +94,7 @@
   .card-img-gra::after {
     display: flex;
     background-position: center;
-    background-color: var(--our-command-substrate);
+    background-color: var($our-command-substrate);
     background-size: 70px;
   }
   
@@ -116,6 +116,6 @@
   .card-img-astro::after {
     display: flex;
     background-position: center;
-    background-color: var(--our-command-substrate);
+    background-color: var($our-command-substrate);
     background-size: 70px;
   }

@@ -10,7 +10,7 @@
       url(/img/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-color: var(--footer-efectivity-substrate-color); */
+    /* background-color: var($footer-efectivity-substrate-color); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@
 
   .button-order {
     font-family: "Roboto";
-    background-color: var(--accent-color);
+    background-color: var($accent-color);
     color: white;
     border: none;
     width: 216px;

@@ -83,7 +83,7 @@
   line-height: 16px;
   letter-spacing: 2%;
   text-decoration: none;
-  color: var(--accent-color);
+  color: var($accent-color);
   text-decoration: none;
   animation: jello-horizontal 0.9s both;
 }
@@ -114,7 +114,7 @@
 }
 
 .mob-nav-item:hover {
-  color: var(--accent-color);
+  color: var($accent-color);
 }
 
 .decor {
@@ -135,7 +135,7 @@
 }
 
 .mob-contact-link {
-  color: var(--accent-color);
+  color: #2196f3;
   font-family: Roboto;
   font-size: 34px;
   font-weight: 500;
