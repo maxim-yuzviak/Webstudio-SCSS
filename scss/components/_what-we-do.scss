@@ -1,3 +1,9 @@
+.work {
+  @media screen and (max-width: 481px) {
+    display: none;
+  }
+}
+
 .what-we-do {
     color: var($footer-efectivity-substrate-color);
     font-family: "Roboto";
@@ -11,6 +17,7 @@
     
   
   }
+
 
   .work-title {
     margin-top: 94px;

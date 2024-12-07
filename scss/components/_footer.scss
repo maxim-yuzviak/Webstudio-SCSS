@@ -1,149 +1,190 @@
-.footer-wrapper{
+.footer-wrapper {
+  display: flex;
+  @media screen and (max-width: 481px) {
+    flex-direction: column;
+  }
+}
+
+.fo-font {
+  font-family: "Roboto", regular;
+  font-weight: 14;
+  font-style: normal;
+  list-style: none;
+  width: 241px;
+  @media screen and (max-width: $mobile) {
     display: flex;
+    position: absolute;
+    left: 124px;
+    right: 124px;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    padding-top: 20px;
   }
+}
 
-  .fo-font {
-    font-family: "Roboto", regular;
-    font-weight: 14;
-    font-style: normal;
-    list-style: none;
-    width: 241px;
-  }
+// .fo-link {
 
-  .fo-footer {
-    color: rgb(255, 255, 255);
-    font-family: "Roboto";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 3%;
-  }
+// }
 
-  .mailto {
-    text-decoration: none;
-    color: var($grey-text-color);
-    font-family: "Roboto";
-    font-size: 14px;
-    font-weight: 400;
-  
-  }
+.fo-footer {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
 
-  .tel {
-    text-decoration: var($grey-text-color);
-    color: var($grey-text-color);
-    font-family: "Roboto";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 3%;
-    list-style: none;
-  
-  }
+.mailto {
+  text-decoration: none;
+  color: #757575;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+}
 
-  .footer-title{
-    color:white;
-    display: flex;
-    margin-top: 0px;
-    font-family: "Roboto";
+.tel {
+  text-decoration: #757575;
+  color: #757575;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 3%;
+  list-style: none;
+}
+
+
+.footer-title {
+  color: white;
+  font-family: "Roboto";
   font-size: 19px;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 3%;
-  text-align: center;
-  }
-
-  .fo-so-net-list{
-    list-style: none;
+  @media screen and (max-width: $mobile) {
+    margin-top: 180px;
+    padding-bottom: 20px;
     display: flex;
-    margin-top: 0px;
-    margin-left: 0px;
-  padding-top: 0px;
-    padding-left: 0px;
-    gap: 10px;
-  justify-content: center;
-  }
-
-  .fo-so-net-item{
-    /* margin-left: 0px;
-    padding-left: 0px; */
-    background-color: rgba(255, 255, 255, 0.1);
-    background-position: center;
-    border-radius: 50%;
-    display: flex; 
-    align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    transition-property: background-color, transform;
-    transition-duration: 250ms;
-    width: 44px;
-    height: 44px;
   }
-
-  .fo-so-net-item:hover{
-    background-color: var($accent-color);
-  }
-
-  .fo-so-net-ico{
-    width: 24px;
-    height: 24px;
-    display: block;
-    position: relative;
-      top: 2px;
-    color: white;
-    }
-  
-    
-    .footer-form{
-        margin-left: 95px;
-        }
-
-.footer-input{
-            box-sizing: border-box;
-          border: 1px solid rgba(255, 255, 255, 0.3);
-          border-radius: 4px;
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-          background: rgba(33, 150, 243, 0);
-          width: 358px;
-          height: 50px;
-          padding-left: 15px;
-          color: white;
 }
-.footer-button{
-    margin-left: 12px;
-    font-family: "Roboto";
-    background-color: var($accent-color);
-    color: white;
-    border: none;
-    width: 216px;
-    height: 50px;
-    font-size: 16px;
-    font-weight: 700;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    transition-property: background-color, transform;
-    transition-duration: 250ms;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .footer-button:hover{
-    background-color: var($accent-color-hover);
-    transform: cubic-bezier(0.4, 0, 0.2, 1); 
+
+.fo-so-net-list {
+  list-style: none;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  gap: 10px;
+  justify-content: center;
+  @media screen and (max-width: $mobile) {
     
   }
+}
 
-  .footer-img{
-    margin-left: 10px;
-  }
+.fo-so-net-item {
+  /* margin-left: 0px;
+    padding-left: 0px; */
+  background-color: rgba(255, 255, 255, 0.1);
+  background-position: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-property: background-color, transform;
+  transition-duration: 250ms;
+  width: 44px;
+  height: 44px;
+}
 
-  footer {
-    background-color: var($footer-efectivity-substrate-color);
-    /* height: 252px; */
+.fo-so-net-item:hover {
+  background-color: #2196f3;
+}
+
+.fo-so-net-ico {
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  top: 2px;
+  color: white;
+}
+
+.footer-form {
+  // margin-left: 95px;
+}
+
+.form-title {
+  color: white;
+  font-family: "Roboto";
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 3%;
+  @media screen and (max-width: $mobile) {
     padding-top: 60px;
+    margin-left: 125px;
+    padding-bottom: 20px;
   }
+}
 
-  footer{
-    display: flex;
+.footer-input {
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: rgba(33, 150, 243, 0);
+  width: 358px;
+  height: 50px;
+  padding-left: 15px;
+  color: white;
+  @media screen and (max-width: $mobile) {
+    width: 450px;
+    margin-left: 15px;
+    margin-bottom: 20px;
   }
+}
+.footer-button {
+  margin-left: 12px;
+  font-family: "Roboto";
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  width: 216px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition-property: background-color, transform;
+  transition-duration: 250ms;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: $mobile) {
+    margin-left: 130px;
+  }
+}
 
+.footer-button:hover {
+  background-color: #188ce8;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-img {
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #2f303a;
+  /* height: 252px; */
+  padding-top: 60px;
+  display: flex;
+  @media screen and (max-width: $mobile) {
+    width: 480px;
+    height: 603px;
+  }
+}

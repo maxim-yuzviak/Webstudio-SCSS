@@ -15,6 +15,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    @media screen and (max-width: 481px) {
+      width: 480px;
+      height: 400px;
+    }
   }
 
   .main-title {
@@ -29,11 +33,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    @media screen and (max-width: 481px) {
+      font-size: 26px;
+    }
   }
 
   .button-order {
     font-family: "Roboto";
-    background-color: var($accent-color);
+    background-color: #2196f3;
     color: white;
     border: none;
     width: 216px;
@@ -51,6 +58,10 @@
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 481px) {
+      width: 200px;
+      height: 50px;
+    }
   }
 
   

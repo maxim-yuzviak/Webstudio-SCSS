@@ -6,6 +6,9 @@
   line-height: 42px;
   letter-spacing: 3%;
   text-align: center;
+  @media screen and (max-width: 481px) {
+    font-size: 28px;
+  }
   }
   
   .client-list{
@@ -13,6 +16,16 @@
   gap: 30px;
   display: flex;
   justify-content: center;
+  @media screen and (max-width: $mobile) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 30px;
+    row-gap: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 60px;
+  }
   }
   
   .client-ico{
@@ -35,6 +48,11 @@
     align-items: center;
   height: 92px;
   fill:  rgb(175, 177, 184);
+  @media screen and (max-width: 481px) {
+    display: flex;
+    width: 210px;
+    height: 92px;
+  }
   }
   
   .client-item:hover{

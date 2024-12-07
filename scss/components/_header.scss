@@ -70,26 +70,37 @@
   right: 15px;
   height: 40px;
   width: 40px;
+  color: #000000;
   @media screen and (min-width: 481px) {
     display: none;
   }
 }
 
-.header-item-now {
+.active-now {
   color: rgb(33, 33, 33);
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
-  letter-spacing: 2%;
-  text-decoration: none;
-  color: var($accent-color);
   text-decoration: none;
   animation: jello-horizontal 0.9s both;
 }
 
-.header-item-now:hover {
-  background-color: white;
+.active-now:hover {
+  color: #2196f3;
+}
+
+.active {
+  color: #212121;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.active:hover {
+  color: #2196f3;
 }
 
 .mob-nav-link {
@@ -114,12 +125,12 @@
 }
 
 .mob-nav-item:hover {
-  color: var($accent-color);
+  color: #2196f3;
 }
 
 .decor {
   position: relative;
-  top: 30px;
+  top: 25px;
   right: 2px;
   width: 48px;
   height: 4px;
@@ -130,8 +141,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-item:hover .decor {
-  transform: translateY(-20px);
+.active-now:hover .decor {
+  transform: translateY(-15px);
 }
 
 .mob-contact-link {

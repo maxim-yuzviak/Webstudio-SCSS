@@ -1,5 +1,5 @@
 .header-logo {
-  color: var($accent-color);
+  color: #2196f3;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -9,8 +9,7 @@
   width: 145px;
   font-weight: 31px;
   padding-left: 35px;
-  margin-top: 22px;
-  margin-right: 93px;
+  padding-right: 32px;
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
     both;
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -40,4 +39,22 @@
   letter-spacing: 3%;
   width: 145px;
   height: 31px;
+}
+
+.footer-logo {
+  color: #2196f3;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 3%;
+  text-decoration: none;
+  width: 145px;
+  font-weight: 31px;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  @media screen and (max-width: $mobile) {
+    margin-left: 163px;
+  }
 }
