@@ -125,6 +125,11 @@ body {
           transform: translateX(100%);
   background-color: white;
 }
+@media screen and (max-width: 480px) {
+  .menu-container {
+    z-index: 10;
+  }
+}
 
 .menu-container.is-open {
   -webkit-transform: translateX(0);
@@ -1463,6 +1468,21 @@ footer {
           align-items: center;
   gap: 8px;
 }
+@media screen and (max-width: 481px) {
+  .button-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+  }
+}
 
 .buttons {
   list-style: none;
@@ -1470,7 +1490,7 @@ footer {
 
 .portfolio-button {
   color: #212121;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border: 0px;
   border-radius: 4px;
   -webkit-box-sizing: border-box;
@@ -1488,13 +1508,13 @@ footer {
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: #212121;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border: 0px;
 }
 
 .portfolio-button:hover {
-  background-color: #2196F3;
-  border-color: #2196F3;
+  background-color: #2196f3;
+  border-color: #2196f3;
   color: #ffffff;
 }
 
@@ -1508,15 +1528,42 @@ footer {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-left: 0px;
-  gap: 27px;
+  gap: 30px;
+}
+@media screen and (max-width: 481px) {
+  .spysok-products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .products-punkty {
   -ms-flex-preferred-size: calc((100% - 7400px) / 9);
       flex-basis: calc((100% - 7400px) / 9);
   border: 1px solid rgb(238, 238, 238);
-  width: 307;
+  width: 370px;
   height: 404px;
+}
+@media screen and (max-width: 481px) {
+  .products-punkty {
+    margin-left: 15px;
+    height: 404px;
+    width: 450px;
+  }
+}
+
+.products-img {
+  width: 370px;
+}
+@media screen and (max-width: 480px) {
+  .products-img {
+    width: 450px;
+  }
 }
 
 .box:hover .hover-text {
@@ -1541,6 +1588,17 @@ footer {
   transition: transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
+@media screen and (max-width: 480px) {
+  .hover-text {
+    height: 294px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 
 .card-title {
   font-family: "Roboto", bold;
@@ -1552,6 +1610,8 @@ footer {
   line-height: 36px;
   letter-spacing: 6%;
   padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 4px;
 }
 
 .card-description {
@@ -1564,6 +1624,7 @@ footer {
   text-align: left;
   color: #757575;
   padding-left: 24px;
+  padding-bottom: 20px;
 }
 
 .box {

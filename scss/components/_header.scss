@@ -52,6 +52,9 @@
   height: 100%;
   transform: translateX(100%);
   background-color: white;
+  @media screen and (max-width: $mobile) {
+    z-index: 10;
+  }
 }
 
 .menu-container.is-open {

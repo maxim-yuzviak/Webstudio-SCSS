@@ -15,24 +15,54 @@
 
 <body>
     <div class="container">
-        <header class="portf-header">
-            <a href="index.html" class="web">Web<span class="studio">Studio</span></a>
-            <ul class="header-list">
-                <li class="active-now"><a href="index.html" class="active">Студія</a></li>
-                <li class="active"><a href="portfolio.html" class="active-now">Портфоліо<div class="decor-portfolio"></div></a></li>
-                <li class="active"><a href="#.html" class="active">Контакти</a></li>
-            </ul>
-            <ul class="header-list-contacts">
-                <li class="active-svg"><a href="mailto:info@devstudio.com" class="active mailto-portfolio"><svg
-                            class="header-mail" width="16" height="12">
+        <header class="header">
+            <div class="container">
+                <div class="header-mob-position">
+            <a href="index.html" class="header-logo">Web<span class="studio">Studio</span></a>
+                <ul class="header-list">
+                    <li class="header-item-now"><a href="index.html" class="active-now">Студія<div class="decor"></div></a></li>
+                    <li class="header-item"><a href="portfolio.html" class="active">Портфоліо</a></li>
+                    <li class="header-item"><a href="#.html" class="active">Контакти</a></li>
+                </ul>
+                <ul class="header-list-contacts">
+                    <li class="active-svg"><a href="mailto:info@devstudio.com" class="active mailto-2"
+                            ><svg class="header-mail" width="16" height="12">
                             <use href="images/symbol-defs.svg#icon-e-mail"></use>
                         </svg>info@devstudio.com</a></li>
-                <li class="active-svg"><a href="tel:+380961111111" class="header-tell"><svg class="header-phone"
-                            width="10" height="16">
+                    <li class="active-svg"><a href="tel:+380961111111" class="header-tell"><svg class="header-phone" width="10" height="16">
                             <use href="img/Vector.svg"></use>
                         </svg>+38 096 111 11 11</a></li>
-            </ul>
-            </header>
+                </ul>
+                <!-- Mobile menu button -->
+                 <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu"><svg><use href="./img/symbol-defs.svg#icon-open"></use></svg></button>
+                </div>
+                <!-- Mobile menu -->
+                 <div class="menu-container js-menu-container">
+                <button type="button" class="menu-toggle js-close-menu"><svg><use href="./img/symbol-defs.svg#icon-close"></use></svg></button>
+                <ul class="mob-nav-list">
+                    <li class="mob-nav-item"><a href="index.html" class="mob-nav-link">Студія</a></li>
+                    <li class="mob-nav-item"><a href="portfolio.html" class="mob-nav-link">Портфоліо</a></li>
+                    <li class="mob-nav-item"><a href="#.html" class="mob-nav-link">Контакти</a></li>
+                </ul>
+                <ul class="mob-contacts">
+                    <li class="mob-contact"><a href="mailto:info@devstudio.com" class="mob-contact-link"
+                            ><svg class="header-mail" width="16" height="12">
+                            <use href="img/symbol-defs.svg#icon-e-mail"></use>
+                        </svg>info@devstudio.com</a></li>
+                    <li class="mob-contact"><a href="tel:+380961111111" class="mob-contact-tel"><svg class="header-phone" width="10" height="16">
+                            <use href="img/Vector.svg"></use>
+                        </svg>+38 096 111 11 11</a></li>
+                </ul>
+                <ul class="mob-header-links">
+                    <li><a href="instagram.com" class="mob-header-link">Instagram</a></li>
+                    <li><a href="x.com" class="mob-header-link">Twitter</a></li>
+                    <li><a href="facebook.com" class="mob-header-link">Facebook</a></li>
+                    <li><a href="linkedin.com" class="mob-header-link">Linkedin</a></li>
+                </ul>
+            </div>
+    </div>
+</div>
+    </header>
     </div>
     <main>
         <section class="section-buttons">
@@ -152,19 +182,19 @@
             </ul>
         </div>
     </main>
-    <footer>
+    <footer class="footer">
         <div class="container footer-wrapper">
             <div class="footer-wrapper-contacts">
-                <a href="index.html" class="web">Web<span class="studio2">Studio</span></a>
+                <a href="index.html" class="footer-logo">Web<span class="studio2">Studio</span></a>
                 <ul class="fo-font">
-                    <li>
+                    <li class="fo-link">
                         <p class="fo-footer">м. Київ, пр-т Лесі Українки, 26</p>
                     </li>
-                    <li><a href="mailto:info@devstudio.com" class="mailto">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
+                    <li class="fo-link"><a href="mailto:info@devstudio.com" class="mailto">info@devstudio.com</a></li>
+                    <li class="fo-link"><a href="tel:+38096111 1111" class="tel">+38 096 111 11 11</a></li>
                 </ul>
             </div>
-
+           
             <div class="footer-social-networking-wrapper">
                 <h3 class="footer-title">Приєднуйтесь</h3>
                 <ul class="fo-so-net-list">
@@ -183,18 +213,18 @@
                 </ul>
             </div>
             <div class="footer-form">
-                <h3 class="footer-title">Підпишіться на розсилку</h3>
+                <h3 class="form-title">Підпишіться на розсилку</h3>
                 <form>
                     <div class="footer-wrapper">
-                        <input id="email" name="email" placeholder="E-mail" class="footer-input">
-                        <button type="button" class="footer-button">Підписатися <img src="img/icon.svg" alt="send"
-                                class="footer-img"></button>
+                      <input id="email" name="email" placeholder="E-mail" class="footer-input">
+                    <button type="button" class="footer-button">Підписатися <img src="img/icon.svg" alt="send" class="footer-img"></button>  
                     </div>
 
                 </form>
             </div>
         </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
