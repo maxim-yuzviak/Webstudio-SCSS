@@ -457,8 +457,8 @@ header > ul {
   color: rgb(255, 255, 255);
   /* padding-top: 200px;
   padding-bottom: 280px; */
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(46, 47, 59, 0.247)), to(rgba(46, 47, 59, 0.247))), url(/img/header.jpg);
-  background-image: linear-gradient(to right, rgba(46, 47, 59, 0.247), rgba(46, 47, 59, 0.247)), url(/img/header.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(46, 47, 59, 0.247)), to(rgba(46, 47, 59, 0.247))), url(../../img/header.jpg);
+  background-image: linear-gradient(to right, rgba(46, 47, 59, 0.247), rgba(46, 47, 59, 0.247)), url(../../img/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-color: var($footer-efectivity-substrate-color); */
@@ -624,7 +624,7 @@ header > ul {
 }
 
 .card-img::after {
-  background-image: url(/img/Antenna.svg);
+  background-image: url(../../img/Antenna.svg);
   background-size: 100px;
   background-repeat: no-repeat;
 }
@@ -687,7 +687,7 @@ header > ul {
 }
 
 .card-img-clock::after {
-  background-image: url(/img/clock.png);
+  background-image: url(../../img/clock.png);
   background-size: 100px;
   background-repeat: no-repeat;
 }
@@ -717,7 +717,7 @@ header > ul {
 }
 
 .card-img-gra::after {
-  background-image: url(/img/computer.png);
+  background-image: url(../../img/computer.png);
   background-size: 100px;
   background-repeat: no-repeat;
 }
@@ -747,7 +747,7 @@ header > ul {
 }
 
 .card-img-astro::after {
-  background-image: url(/img/cosmonaut.png);
+  background-image: url(../../img/cosmonaut.png);
   background-size: 100px;
   background-repeat: no-repeat;
 }
