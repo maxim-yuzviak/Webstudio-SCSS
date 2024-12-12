@@ -1370,10 +1370,23 @@ footer {
   text-align: left;
 }
 
-.modal-img {
-  position: absolute;
-  padding: 10px;
-  padding-top: 14px;
+.user-modal {
+  color: red;
+  background-color: blue;
+  width: 18px;
+  height: 18px;
+}
+
+.phone-modal {
+  color: #212121;
+  width: 13px;
+  height: 13px;
+}
+
+.mail-modal {
+  color: #212121;
+  width: 13px;
+  height: 13px;
 }
 
 .modal-input {
