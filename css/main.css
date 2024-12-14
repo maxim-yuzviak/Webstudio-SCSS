@@ -787,6 +787,15 @@ header > ul {
 .work-title {
   margin-top: 94px;
   margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .work-list {
@@ -852,6 +861,10 @@ header > ul {
   line-height: 24px;
   letter-spacing: 3%;
   color: var(#757575);
+}
+
+.features-description {
+  color: white;
 }
 
 .team {
@@ -928,6 +941,7 @@ header > ul {
 .team-img {
   list-style: none;
   display: block;
+  padding-bottom: 30px;
 }
 @media screen and (max-width: 481px) {
   .team-img {
@@ -1371,22 +1385,34 @@ footer {
 }
 
 .user-modal {
-  color: red;
-  background-color: blue;
+  fill: #212121;
   width: 18px;
   height: 18px;
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .phone-modal {
-  color: #212121;
+  fill: #212121;
   width: 13px;
   height: 13px;
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 14px;
 }
 
 .mail-modal {
-  color: #212121;
+  fill: #212121;
   width: 13px;
   height: 13px;
+  position: absolute;
+  padding-left: 12px;
+  padding-top: 13px;
+}
+
+.modal-icons:hover {
+  fill: #2196F3;
 }
 
 .modal-input {
@@ -1400,6 +1426,10 @@ footer {
   padding-left: 30px;
 }
 
+.modal-input:hover {
+  border-color: #2196F3;
+}
+
 .modal-area {
   width: 448px;
   height: 120px;
@@ -1408,6 +1438,8 @@ footer {
           box-sizing: border-box;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 12px;
 }
 
 .modal-link {
@@ -1441,8 +1473,6 @@ footer {
   display: block;
   width: 16px;
   height: 15px;
-  position: relative;
-  top: 33px;
   margin-right: 7px;
   border: 1.5px solid #212121;
   border-radius: 4px;
@@ -1451,6 +1481,8 @@ footer {
 .terms {
   color: var(#757575);
   text-decoration: none;
+  padding-left: 20px;
+  padding-bottom: 30px;
 }
 
 .section-buttons {
