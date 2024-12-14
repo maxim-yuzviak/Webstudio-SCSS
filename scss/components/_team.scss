@@ -74,6 +74,11 @@
   justify-content: center;
   margin-bottom: 42px;
   align-items: center;
+
+  &:hover {
+  background-color: $accentColor;
+  border-radius: 50%;
+}
 }
 
 .team-socials {
@@ -111,9 +116,4 @@
   color: #757575;
   display: flex;
   justify-content: center;
-}
-
-.team-social:hover {
-  background-color: var($accent-color);
-  border-radius: 50%;
 }

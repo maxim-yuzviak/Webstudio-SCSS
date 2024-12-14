@@ -63,11 +63,9 @@
     width: 11px;
     height: 11px;
     
-    
-  }
-
-  .close-img:hover{
+    &:hover{
     fill: #188CE8;
+  }
   }
 
   .modal-title{
@@ -130,13 +128,11 @@
   border-radius: 4px;
   margin-bottom: 18px;
   padding-left: 30px;
-  }
 
-  .modal-input:hover {
+  &:hover {
     border-color: #2196F3;
   }
-
-  
+  }
 
   .modal-area{
     width: 448px;

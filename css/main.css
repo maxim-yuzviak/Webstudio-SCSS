@@ -171,11 +171,18 @@ body {
   text-decoration: none;
   -webkit-animation: jello-horizontal 0.9s both;
           animation: jello-horizontal 0.9s both;
+  
+  &:hover {
+      color: #2196f3;
+    }
+
+        &:hover .decor {
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
 }
 
-.active-now:hover {
-  color: #2196f3;
-}
+
 
 .active {
   color: #212121;
@@ -184,10 +191,10 @@ body {
   font-weight: 500;
   line-height: 16px;
   text-decoration: none;
-}
 
-.active:hover {
-  color: #2196f3;
+  &:hover {
+      color: #2196f3;
+    }
 }
 
 .mob-nav-link {
@@ -205,15 +212,15 @@ body {
 
 .mob-nav-item {
   padding-bottom: 32px;
+
+  &:hover {
+      color: #2196f3;
+    }
 }
 
 .mob-nav-list {
   margin-top: 48px;
   margin-left: 40px;
-}
-
-.mob-nav-item:hover {
-  color: #2196f3;
 }
 
 .decor {
@@ -232,11 +239,6 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.active-now:hover .decor {
-  -webkit-transform: translateY(-15px);
-          transform: translateY(-15px);
 }
 
 .mob-contact-link {
@@ -354,10 +356,10 @@ header > ul {
       -ms-flex-align: center;
           align-items: center;
   color: #F5F4FA;
-}
 
-.client-ico:hover {
-  color: #188CE8;
+  &:hover {
+      color: #188CE8;
+    }
 }
 
 .client-item {
@@ -375,7 +377,13 @@ header > ul {
           align-items: center;
   height: 92px;
   fill: rgb(175, 177, 184);
+
+  &:hover {
+      fill: var(#2196f3);
+    }
 }
+
+
 @media screen and (max-width: 481px) {
   .client-item {
     display: -webkit-box;
@@ -386,9 +394,6 @@ header > ul {
   }
 }
 
-.client-item:hover {
-  fill: var(#2196f3);
-}
 
 .header-logo {
   color: #2196f3;
@@ -575,10 +580,10 @@ header > ul {
 .header-phone {
   margin-right: 10px;
   fill: #212121;
-}
 
-.header-phone:hover {
-  fill: #188CE8;
+  &:hover {
+      fill: #188CE8;
+    }
 }
 
 .features-list {

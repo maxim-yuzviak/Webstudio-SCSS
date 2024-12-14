@@ -44,12 +44,12 @@
   color: #212121;
   background-color: #f5f4fa;
   border: 0px;
-}
 
-.portfolio-button:hover {
+  &:hover {
   background-color: #2196f3;
   border-color: #2196f3;
   color: #ffffff;
+}
 }
 
 .spysok-products {
@@ -84,10 +84,6 @@
     width: 450px;
   }
 } 
-
-.box:hover .hover-text {
-  transform: translatey(-100%);
-}
 
 .hover-text {
   position: absolute;
@@ -138,6 +134,10 @@
 .box {
   position: relative;
   overflow: hidden;
+
+  &:hover .hover-text {
+  transform: translatey(-100%);
+}
 }
 
 .hidden-text {

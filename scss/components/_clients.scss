@@ -33,12 +33,13 @@
     justify-content: center;
     align-items: center;
     color: #F5F4FA;
-  }
-  
-  .client-ico:hover{
+
+    &:hover{
    color: #188CE8;
   }
-  
+  }
+
+
   .client-item{
   border: 1px solid rgb(175, 177, 184);
   border-radius: 4px;
@@ -48,15 +49,14 @@
     align-items: center;
   height: 92px;
   fill:  rgb(175, 177, 184);
+
+  &:hover{
+  fill: $accentColor;
+  }
+
   @media screen and (max-width: 481px) {
     display: flex;
     width: 210px;
     height: 92px;
   }
   }
-  
-  .client-item:hover{
-  fill: var($accent-color);
-  }
-
-  

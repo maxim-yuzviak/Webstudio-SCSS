@@ -87,12 +87,16 @@
   line-height: 16px;
   text-decoration: none;
   animation: jello-horizontal 0.9s both;
-}
 
-.active-now:hover {
+  &:hover {
   color: #2196f3;
+  
 }
 
+&:hover .decor {
+  transform: translateY(-15px);
+}
+}
 .active {
   color: #212121;
   font-family: "Roboto";
@@ -100,10 +104,10 @@
   font-weight: 500;
   line-height: 16px;
   text-decoration: none;
-}
 
-.active:hover {
+  &:hover {
   color: #2196f3;
+}
 }
 
 .mob-nav-link {
@@ -125,10 +129,10 @@
 .mob-nav-list {
   margin-top: 48px;
   margin-left: 40px;
-}
 
-.mob-nav-item:hover {
+  &:hover {
   color: #2196f3;
+}
 }
 
 .decor {
@@ -142,10 +146,6 @@
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.active-now:hover .decor {
-  transform: translateY(-15px);
 }
 
 .mob-contact-link {
