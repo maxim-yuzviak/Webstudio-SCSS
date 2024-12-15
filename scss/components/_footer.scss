@@ -91,9 +91,7 @@
   background-color: rgba(255, 255, 255, 0.1);
   background-position: center;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex (flex, space-between, center);
   transition-property: background-color, transform;
   transition-duration: 250ms;
   width: 44px;
@@ -161,9 +159,7 @@
   transition-property: background-color, transform;
   transition-duration: 250ms;
   border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex (flex, space-between, center);
 
   &:hover {
   background-color: #188ce8;

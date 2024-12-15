@@ -1,4 +1,4 @@
-@mixin flex ($type, $mainAxis, $gapSize) {
+@mixin flex ($type, $mainAxis, $minorAxis) {
     display: flex;
     align-items: center;
     justify-content: center;

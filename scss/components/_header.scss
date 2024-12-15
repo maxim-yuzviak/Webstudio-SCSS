@@ -11,9 +11,7 @@
 }
 
 .header-mob-position {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include flex (flex, space-between, center);
 }
 
 .header-list {
@@ -62,9 +60,7 @@
 }
 
 .menu-toggle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex (flex, space-between, center);
   background-color: transparent;
   cursor: pointer;
   border: none;
